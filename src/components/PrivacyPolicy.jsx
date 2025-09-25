@@ -171,7 +171,7 @@ const PrivacyPolicy = () => {
         </Header>
 
         <Title>Privacy Policy</Title>
-        <LastUpdated>Last updated: January 1, 2025</LastUpdated>
+        <LastUpdated>Last updated: September 25, 2025</LastUpdated>
 
         <Content>
           <Section>
@@ -261,7 +261,7 @@ const PrivacyPolicy = () => {
               <strong>Address:</strong> Indiranagar, Bengaluru, Karnataka, India
             </ContactText>
             <ContactText style={{ marginTop: '16px', fontSize: '12px', color: '#64748b' }}>
-              © 2025 Formonex Solutions PVT LD. All Rights Reserved
+              © 2025 Formonex Solutions Pvt Ltd. All Rights Reserved
             </ContactText>
           </ContactSection>
         </Content>
