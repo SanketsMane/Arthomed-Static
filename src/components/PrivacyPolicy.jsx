@@ -182,6 +182,9 @@ const PrivacyPolicy = () => {
               disclose, and safeguard your information when you use our healthcare management 
               platform and mobile application.
             </Paragraph>
+            <Paragraph>
+              Publisher Name: Nitinkumar Karoshi
+            </Paragraph>
             <ImportantNote>
               <ImportantText>
                 <strong>Healthcare Data Notice:</strong> This platform processes Protected Health 
