@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arthomed - Smart Appointment & Patient Management</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <div class="container">
+            <div class="nav">
+                <div class="logo">
+                    <div class="logo-icon">
+                        <i class="fas fa-user-md"></i>
+                    </div>
+                    <span class="logo-text">Arthomed</span>
+                </div>
+                <nav class="navigation">
+                    <a href="#features">Features</a>
+                    <a href="#about">About</a>
+                    <a href="#contact">Contact</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">Smart Healthcare<br>Management<br><span class="gradient-text">Made Simple</span></h1>
+                    <p class="hero-subtitle">
+                        Comprehensive healthcare management system designed to streamline operations 
+                        for orthopedic facilities. Manage appointments, treatments, and medical records 
+                        from a single, integrated platform.
+                    </p>
+                    <div class="download-buttons">
+                        <a href="#" class="btn btn-primary">
+                            <i class="fab fa-apple"></i>
+                            <div>
+                                <small>Download on the</small>
+                                <strong>App Store</strong>
+                            </div>
+                        </a>
+                        <a href="#" class="btn btn-secondary">
+                            <i class="fab fa-google-play"></i>
+                            <div>
+                                <small>Get it on</small>
+                                <strong>Google Play</strong>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-phone">
+                    <div class="phone-mockup main-phone">
+                        <div class="phone-screen">
+                            <div class="app-interface dashboard">
+                                <div class="app-header">
+                                    <h3>Dashboard</h3>
+                                    <div class="user-avatar"></div>
+                                </div>
+                                <div class="dashboard-stats">
+                                    <div class="stat-card">
+                                        <div class="stat-number">24</div>
+                                        <div class="stat-label">Today's Appointments</div>
+                                    </div>
+                                    <div class="stat-card">
+                                        <div class="stat-number">12</div>
+                                        <div class="stat-label">IPD Patients</div>
+                                    </div>
+                                </div>
+                                <div class="quick-actions">
+                                    <div class="action-btn">Book Appointment</div>
+                                    <div class="action-btn">Patient Records</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Showcase Section -->
+    <section class="showcase">
+        <div class="container">
+            <div class="showcase-grid">
+                <!-- Admin Dashboard Phone -->
+                <div class="phone-mockup floating admin-phone">
+                    <div class="phone-screen">
+                        <div class="app-interface admin-dashboard">
+                            <div class="app-header">
+                                <h4>Admin Dashboard</h4>
+                                <i class="fas fa-cog"></i>
+                            </div>
+                            <div class="admin-stats">
+                                <div class="admin-card">
+                                    <i class="fas fa-users"></i>
+                                    <div class="admin-info">
+                                        <div class="admin-number">248</div>
+                                        <div class="admin-label">Total Patients</div>
+                                    </div>
+                                </div>
+                                <div class="admin-card">
+                                    <i class="fas fa-calendar"></i>
+                                    <div class="admin-info">
+                                        <div class="admin-number">64</div>
+                                        <div class="admin-label">Today's Appointments</div>
+                                    </div>
+                                </div>
+                                <div class="admin-card">
+                                    <i class="fas fa-bed"></i>
+                                    <div class="admin-info">
+                                        <div class="admin-number">18</div>
+                                        <div class="admin-label">IPD Patients</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Doctor's Schedule Phone -->
+                <div class="phone-mockup floating doctor-phone">
+                    <div class="phone-screen">
+                        <div class="app-interface doctor-schedule">
+                            <div class="app-header">
+                                <h4>Dr. Sarah Wilson</h4>
+                                <div class="doctor-avatar"></div>
+                            </div>
+                            <div class="schedule-list">
+                                <div class="appointment-item">
+                                    <div class="time">9:00 AM</div>
+                                    <div class="patient-info">
+                                        <div class="patient-name">John Smith</div>
+                                        <div class="condition">Knee Consultation</div>
+                                    </div>
+                                    <div class="status completed">✓</div>
+                                </div>
+                                <div class="appointment-item">
+                                    <div class="time">10:30 AM</div>
+                                    <div class="patient-info">
+                                        <div class="patient-name">Maria Garcia</div>
+                                        <div class="condition">Hip Surgery Follow-up</div>
+                                    </div>
+                                    <div class="status current">●</div>
+                                </div>
+                                <div class="appointment-item">
+                                    <div class="time">2:00 PM</div>
+                                    <div class="patient-info">
+                                        <div class="patient-name">David Chen</div>
+                                        <div class="condition">Shoulder X-ray Review</div>
+                                    </div>
+                                    <div class="status upcoming">○</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Patient Profile Phone -->
+                <div class="phone-mockup floating patient-phone">
+                    <div class="phone-screen">
+                        <div class="app-interface patient-profile">
+                            <div class="profile-header">
+                                <div class="profile-avatar large"></div>
+                                <h4>Michael Johnson</h4>
+                                <p>Patient ID: #AR2024-156</p>
+                            </div>
+                            <div class="patient-details">
+                                <div class="detail-row">
+                                    <span class="detail-label">Age:</span>
+                                    <span class="detail-value">45 years</span>
+                                </div>
+                                <div class="detail-row">
+                                    <span class="detail-label">Condition:</span>
+                                    <span class="detail-value">Chronic Knee Pain</span>
+                                </div>
+                                <div class="detail-row">
+                                    <span class="detail-label">Last Visit:</span>
+                                    <span class="detail-value">Sept 20, 2024</span>
+                                </div>
+                                <div class="detail-row">
+                                    <span class="detail-label">Next Appointment:</span>
+                                    <span class="detail-value">Oct 15, 2024</span>
+                                </div>
+                            </div>
+                            <div class="patient-actions">
+                                <button class="action-btn primary">View Records</button>
+                                <button class="action-btn secondary">Message Doctor</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Appointment Booking Phone -->
+                <div class="phone-mockup floating booking-phone">
+                    <div class="phone-screen">
+                        <div class="app-interface appointment-booking">
+                            <div class="app-header">
+                                <h4>Book Appointment</h4>
+                                <i class="fas fa-calendar-plus"></i>
+                            </div>
+                            <div class="booking-form">
+                                <div class="form-group">
+                                    <label>Select Doctor</label>
+                                    <div class="doctor-select">
+                                        <div class="selected-doctor">
+                                            <div class="doctor-avatar small"></div>
+                                            <span>Dr. Sarah Wilson</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label>Preferred Date</label>
+                                    <div class="date-picker">
+                                        <div class="selected-date">Oct 25, 2024</div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label>Available Slots</label>
+                                    <div class="time-slots">
+                                        <div class="time-slot">9:00 AM</div>
+                                        <div class="time-slot active">10:30 AM</div>
+                                        <div class="time-slot">2:00 PM</div>
+                                    </div>
+                                </div>
+                                <button class="book-btn">Confirm Booking</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Treatment Plan Phone -->
+                <div class="phone-mockup floating treatment-phone">
+                    <div class="phone-screen">
+                        <div class="app-interface treatment-plan">
+                            <div class="app-header">
+                                <h4>Treatment Plan</h4>
+                                <i class="fas fa-notes-medical"></i>
+                            </div>
+                            <div class="treatment-timeline">
+                                <div class="timeline-item completed">
+                                    <div class="timeline-dot"></div>
+                                    <div class="timeline-content">
+                                        <div class="timeline-title">Initial Consultation</div>
+                                        <div class="timeline-date">Day 1 - Completed</div>
+                                    </div>
+                                </div>
+                                <div class="timeline-item completed">
+                                    <div class="timeline-dot"></div>
+                                    <div class="timeline-content">
+                                        <div class="timeline-title">X-ray & Diagnosis</div>
+                                        <div class="timeline-date">Day 3 - Completed</div>
+                                    </div>
+                                </div>
+                                <div class="timeline-item current">
+                                    <div class="timeline-dot"></div>
+                                    <div class="timeline-content">
+                                        <div class="timeline-title">Physical Therapy</div>
+                                        <div class="timeline-date">Day 17 - In Progress</div>
+                                    </div>
+                                </div>
+                                <div class="timeline-item">
+                                    <div class="timeline-dot"></div>
+                                    <div class="timeline-content">
+                                        <div class="timeline-title">Follow-up Consultation</div>
+                                        <div class="timeline-date">Day 45 - Scheduled</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <div class="container">
+            <div class="features-header">
+                <h2>Complete Healthcare Management Solution</h2>
+                <p>Designed for administrators, doctors, receptionists, and patients</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-user-cog"></i>
+                    </div>
+                    <h3>Hospital Administration</h3>
+                    <p>Complete system oversight with user management, appointment viewing, and comprehensive data access.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-calendar-check"></i>
+                    </div>
+                    <h3>Reception Management</h3>
+                    <p>Seamless appointment scheduling, patient onboarding, and integrated communication hub.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-stethoscope"></i>
+                    </div>
+                    <h3>Doctor Dashboard</h3>
+                    <p>Organized patient lists, complete profiles, digital treatment plans, and real-time monitoring.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Patient Experience</h3>
+                    <p>Self-registration, personal health dashboard, treatment transparency, and direct communication.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

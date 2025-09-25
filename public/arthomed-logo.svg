@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 200" width="700" height="200">
+  <defs>
+    <style>
+      .wing-blue { fill: #2B5AA0; stroke: #2B5AA0; stroke-width: 1; }
+      .text-blue { fill: #2B5AA0; font-family: 'Arial', sans-serif; font-weight: bold; }
+      .text-red { fill: #C5282F; font-family: 'Arial', sans-serif; font-weight: normal; }
+    </style>
+  </defs>
+  
+  <!-- Left Wing -->
+  <g class="wing-blue">
+    <!-- Outer wing curves -->
+    <path d="M20,100 Q10,80 25,85 Q40,90 55,95 Q70,100 85,95 Q100,90 115,95 Q130,100 145,95 Q160,90 175,95 Q185,100 180,110 Q175,120 160,115 Q145,110 130,115 Q115,120 100,115 Q85,110 70,115 Q55,120 40,115 Q25,110 20,100 Z"/>
+    
+    <!-- Middle wing layer -->
+    <path d="M30,95 Q25,85 35,88 Q50,92 65,95 Q80,98 95,95 Q110,92 125,95 Q140,98 155,95 Q165,92 160,102 Q155,112 140,107 Q125,102 110,107 Q95,112 80,107 Q65,102 50,107 Q35,112 30,95 Z"/>
+    
+    <!-- Inner wing layer -->
+    <path d="M40,92 Q38,87 45,89 Q55,91 65,93 Q75,95 85,93 Q95,91 105,93 Q115,95 125,93 Q135,91 130,98 Q125,105 115,102 Q105,99 95,102 Q85,105 75,102 Q65,99 55,102 Q45,105 40,92 Z"/>
+  </g>
+  
+  <!-- Right Wing -->
+  <g class="wing-blue">
+    <!-- Outer wing curves -->
+    <path d="M380,100 Q390,80 375,85 Q360,90 345,95 Q330,100 315,95 Q300,90 285,95 Q270,100 255,95 Q240,90 225,95 Q215,100 220,110 Q225,120 240,115 Q255,110 270,115 Q285,120 300,115 Q315,110 330,115 Q345,120 360,115 Q375,110 380,100 Z"/>
+    
+    <!-- Middle wing layer -->
+    <path d="M370,95 Q375,85 365,88 Q350,92 335,95 Q320,98 305,95 Q290,92 275,95 Q260,98 245,95 Q235,92 240,102 Q245,112 260,107 Q275,102 290,107 Q305,112 320,107 Q335,102 350,107 Q365,112 370,95 Z"/>
+    
+    <!-- Inner wing layer -->
+    <path d="M360,92 Q362,87 355,89 Q345,91 335,93 Q325,95 315,93 Q305,91 295,93 Q285,95 275,93 Q265,91 270,98 Q275,105 285,102 Q295,99 305,102 Q315,105 325,102 Q335,99 345,102 Q355,105 360,92 Z"/>
+  </g>
+  
+  <!-- Arthomed Text -->
+  <text x="420" y="90" class="text-blue" font-size="48">Arthomed</text>
+  
+  <!-- Relief. Recover. Restore Text -->
+  <text x="420" y="125" class="text-red" font-size="18">Relief. Recover. Restore</text>
+</svg>
