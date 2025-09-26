@@ -10,6 +10,7 @@ import Footer from './components/Footer';
 import Contact from './components/Contact';
 import PrivacyPolicy from './components/PrivacyPolicy';
 import TermsConditions from './components/TermsConditions';
+import AccountDeletion from './components/AccountDeletion';
 
 const GlobalStyle = createGlobalStyle`
   * {
@@ -114,6 +115,7 @@ function App() {
             <Route path="/" element={<HomePage />} />
             <Route path="/privacy-policy" element={<PrivacyPolicy />} />
             <Route path="/terms-conditions" element={<TermsConditions />} />
+            <Route path="/account-deletion" element={<AccountDeletion />} />
           </Routes>
           <Footer />
         </div>

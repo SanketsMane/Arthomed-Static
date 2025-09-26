@@ -131,6 +131,7 @@ const Footer = () => {
             <SectionTitle>Legal</SectionTitle>
             <FooterLink to="/privacy-policy">Privacy Policy</FooterLink>
             <FooterLink to="/terms-conditions">Terms & Conditions</FooterLink>
+            <FooterLink to="/account-deletion">Account Deletion</FooterLink>
           </FooterSection>
         </FooterMain>
 
