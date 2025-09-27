@@ -429,7 +429,7 @@ const AccountDeletion = () => {
             <SectionHeading>How to Request Account Deletion</SectionHeading>
             <ProcessSteps>
               <StepsList>
-                <li>Use the <strong>"Delete My Account"</strong> button in the Arthomed app (located in User Profile → Account → Delete My Account), or</li>
+                <li>Use the <strong>"Delete My Account"</strong> button in the Arthomed app (located in User Profile → Delete My Account), or</li>
                 <li>Send an email to: <ContactLink href="mailto:queries@arthomed.in">queries@arthomed.in</ContactLink> with subject line "Account Deletion Request"</li>
                 <li>Include your <strong>registered mobile number</strong> or <strong>email address</strong> used for login verification</li>
                 <li>Clearly state: <strong>"I request permanent deletion of my account and all associated data"</strong></li>
